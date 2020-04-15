@@ -1,6 +1,7 @@
 package Model;
 
 import java.util.ArrayList;
+import java.awt.font.*;
 import java.util.Collections;
 
 import javafx.beans.property.SimpleIntegerProperty;
@@ -19,6 +20,7 @@ public class DeckOfCards {
     public DeckOfCards() {
         shuffle();
     }
+    
 
     /**
      * How many cards are left in the deck?
